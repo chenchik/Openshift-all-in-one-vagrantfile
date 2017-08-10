@@ -1,0 +1,961 @@
+===> ENV Variables ...
+APT_ALLOW_UNAUTHENTICATED=false
+AUTO_OFFSET_RESET=latest
+C29_PORT=tcp://172.30.175.117:8083
+C29_PORT_8083_TCP=tcp://172.30.175.117:8083
+C29_PORT_8083_TCP_ADDR=172.30.175.117
+C29_PORT_8083_TCP_PORT=8083
+C29_PORT_8083_TCP_PROTO=tcp
+C29_PORT_9092_TCP=tcp://172.30.175.117:9092
+C29_PORT_9092_TCP_ADDR=172.30.175.117
+C29_PORT_9092_TCP_PORT=9092
+C29_PORT_9092_TCP_PROTO=tcp
+C29_SERVICE_HOST=172.30.175.117
+C29_SERVICE_PORT=8083
+C29_SERVICE_PORT_8083_TCP=8083
+C29_SERVICE_PORT_9092_TCP=9092
+C30_PORT=tcp://172.30.64.86:8083
+C30_PORT_8083_TCP=tcp://172.30.64.86:8083
+C30_PORT_8083_TCP_ADDR=172.30.64.86
+C30_PORT_8083_TCP_PORT=8083
+C30_PORT_8083_TCP_PROTO=tcp
+C30_PORT_9092_TCP=tcp://172.30.64.86:9092
+C30_PORT_9092_TCP_ADDR=172.30.64.86
+C30_PORT_9092_TCP_PORT=9092
+C30_PORT_9092_TCP_PROTO=tcp
+C30_SERVICE_HOST=172.30.64.86
+C30_SERVICE_PORT=8083
+C30_SERVICE_PORT_8083_TCP=8083
+C30_SERVICE_PORT_9092_TCP=9092
+C31_PORT=tcp://172.30.132.161:8083
+C31_PORT_8083_TCP=tcp://172.30.132.161:8083
+C31_PORT_8083_TCP_ADDR=172.30.132.161
+C31_PORT_8083_TCP_PORT=8083
+C31_PORT_8083_TCP_PROTO=tcp
+C31_PORT_9092_TCP=tcp://172.30.132.161:9092
+C31_PORT_9092_TCP_ADDR=172.30.132.161
+C31_PORT_9092_TCP_PORT=9092
+C31_PORT_9092_TCP_PROTO=tcp
+C31_SERVICE_HOST=172.30.132.161
+C31_SERVICE_PORT=8083
+C31_SERVICE_PORT_8083_TCP=8083
+C31_SERVICE_PORT_9092_TCP=9092
+C38_PORT=tcp://172.30.13.6:8083
+C38_PORT_8083_TCP=tcp://172.30.13.6:8083
+C38_PORT_8083_TCP_ADDR=172.30.13.6
+C38_PORT_8083_TCP_PORT=8083
+C38_PORT_8083_TCP_PROTO=tcp
+C38_PORT_9092_TCP=tcp://172.30.13.6:9092
+C38_PORT_9092_TCP_ADDR=172.30.13.6
+C38_PORT_9092_TCP_PORT=9092
+C38_PORT_9092_TCP_PROTO=tcp
+C38_SERVICE_HOST=172.30.13.6
+C38_SERVICE_PORT=8083
+C38_SERVICE_PORT_8083_TCP=8083
+C38_SERVICE_PORT_9092_TCP=9092
+C39_PORT=tcp://172.30.180.96:8083
+C39_PORT_8083_TCP=tcp://172.30.180.96:8083
+C39_PORT_8083_TCP_ADDR=172.30.180.96
+C39_PORT_8083_TCP_PORT=8083
+C39_PORT_8083_TCP_PROTO=tcp
+C39_PORT_9092_TCP=tcp://172.30.180.96:9092
+C39_PORT_9092_TCP_ADDR=172.30.180.96
+C39_PORT_9092_TCP_PORT=9092
+C39_PORT_9092_TCP_PROTO=tcp
+C39_SERVICE_HOST=172.30.180.96
+C39_SERVICE_PORT=8083
+C39_SERVICE_PORT_8083_TCP=8083
+C39_SERVICE_PORT_9092_TCP=9092
+CLASSPATH=/usr/local/share/kafka/plugins/*
+COMPONENT=kafka-connect
+CONFLUENT_DEB_VERSION=2
+CONFLUENT_MAJOR_VERSION=3
+CONFLUENT_MINOR_VERSION=2
+CONFLUENT_PATCH_VERSION=2
+CONFLUENT_VERSION=3.2.2
+CONNECT_AUTO_OFFSET_RESET=latest
+CONNECT_BOOTSTRAP_SERVERS=192.168.112.163:9092
+CONNECT_CONFIG_STORAGE_TOPIC=danila-connect-configs-f
+CONNECT_GROUP_ID=connect_group_multi_worker_51
+CONNECT_INTERNAL_KEY_CONVERTER=org.apache.kafka.connect.json.JsonConverter
+CONNECT_INTERNAL_KEY_CONVERTER_SCHEMAS_ENABLE=false
+CONNECT_INTERNAL_VALUE_CONVERTER=org.apache.kafka.connect.json.JsonConverter
+CONNECT_INTERNAL_VALUE_CONVERTER_SCHEMAS_ENABLE=false
+CONNECT_KAFKA_HEAP_OPTS=-Xms2g -Xmx8g
+CONNECT_KEY_CONVERTER=org.apache.kafka.connect.storage.StringConverter
+CONNECT_KEY_CONVERTER_SCHEMAS_ENABLE=false
+CONNECT_OFFSET_STORAGE_TOPIC=danila-connect-offsets-f
+CONNECT_PLUGIN_PATH=/usr/local/share/kafka/plugins/*
+CONNECT_REST_ADVERTISED_HOST_NAME=connect72
+CONNECT_REST_PORT=8083
+CONNECT_STATUS_STORAGE_TOPIC=danila-connect-status-f
+CONNECT_VALUES_CONVERTER_SCHEMAS_ENABLE=false
+CONNECT_VALUE_CONVERTER=org.apache.kafka.connect.storage.StringConverter
+DEMO_PORT=tcp://172.30.79.143:8083
+DEMO_PORT_8083_TCP=tcp://172.30.79.143:8083
+DEMO_PORT_8083_TCP_ADDR=172.30.79.143
+DEMO_PORT_8083_TCP_PORT=8083
+DEMO_PORT_8083_TCP_PROTO=tcp
+DEMO_PORT_9092_TCP=tcp://172.30.79.143:9092
+DEMO_PORT_9092_TCP_ADDR=172.30.79.143
+DEMO_PORT_9092_TCP_PORT=9092
+DEMO_PORT_9092_TCP_PROTO=tcp
+DEMO_SERVICE_HOST=172.30.79.143
+DEMO_SERVICE_PORT=8083
+DEMO_SERVICE_PORT_8083_TCP=8083
+DEMO_SERVICE_PORT_9092_TCP=9092
+DOCKER_REGISTRY_PORT=tcp://172.30.53.244:5000
+DOCKER_REGISTRY_PORT_5000_TCP=tcp://172.30.53.244:5000
+DOCKER_REGISTRY_PORT_5000_TCP_ADDR=172.30.53.244
+DOCKER_REGISTRY_PORT_5000_TCP_PORT=5000
+DOCKER_REGISTRY_PORT_5000_TCP_PROTO=tcp
+DOCKER_REGISTRY_SERVICE_HOST=172.30.53.244
+DOCKER_REGISTRY_SERVICE_PORT=5000
+DOCKER_REGISTRY_SERVICE_PORT_5000_TCP=5000
+HADOOP_USER_NAME=hdfs
+HOME=/root
+HOSTNAME=c39-1-6f486
+KAFKA_HEAP_OPTS=-Xms2g -Xmx8g
+KAFKA_VERSION=0.10.2.1
+KUBERNETES_PORT=tcp://172.30.0.1:443
+KUBERNETES_PORT_443_TCP=tcp://172.30.0.1:443
+KUBERNETES_PORT_443_TCP_ADDR=172.30.0.1
+KUBERNETES_PORT_443_TCP_PORT=443
+KUBERNETES_PORT_443_TCP_PROTO=tcp
+KUBERNETES_PORT_53_TCP=tcp://172.30.0.1:53
+KUBERNETES_PORT_53_TCP_ADDR=172.30.0.1
+KUBERNETES_PORT_53_TCP_PORT=53
+KUBERNETES_PORT_53_TCP_PROTO=tcp
+KUBERNETES_PORT_53_UDP=udp://172.30.0.1:53
+KUBERNETES_PORT_53_UDP_ADDR=172.30.0.1
+KUBERNETES_PORT_53_UDP_PORT=53
+KUBERNETES_PORT_53_UDP_PROTO=udp
+KUBERNETES_SERVICE_HOST=172.30.0.1
+KUBERNETES_SERVICE_PORT=443
+KUBERNETES_SERVICE_PORT_DNS=53
+KUBERNETES_SERVICE_PORT_DNS_TCP=53
+KUBERNETES_SERVICE_PORT_HTTPS=443
+LANG=C.UTF-8
+MARIADB_101_RHEL7_PORT=tcp://172.30.209.129:3306
+MARIADB_101_RHEL7_PORT_3306_TCP=tcp://172.30.209.129:3306
+MARIADB_101_RHEL7_PORT_3306_TCP_ADDR=172.30.209.129
+MARIADB_101_RHEL7_PORT_3306_TCP_PORT=3306
+MARIADB_101_RHEL7_PORT_3306_TCP_PROTO=tcp
+MARIADB_101_RHEL7_SERVICE_HOST=172.30.209.129
+MARIADB_101_RHEL7_SERVICE_PORT=3306
+MARIADB_101_RHEL7_SERVICE_PORT_3306_TCP=3306
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+PWD=/
+PYTHON_PIP_VERSION=8.1.2
+PYTHON_VERSION=2.7.9-1
+ROUTER_PORT=tcp://172.30.198.186:80
+ROUTER_PORT_1936_TCP=tcp://172.30.198.186:1936
+ROUTER_PORT_1936_TCP_ADDR=172.30.198.186
+ROUTER_PORT_1936_TCP_PORT=1936
+ROUTER_PORT_1936_TCP_PROTO=tcp
+ROUTER_PORT_443_TCP=tcp://172.30.198.186:443
+ROUTER_PORT_443_TCP_ADDR=172.30.198.186
+ROUTER_PORT_443_TCP_PORT=443
+ROUTER_PORT_443_TCP_PROTO=tcp
+ROUTER_PORT_80_TCP=tcp://172.30.198.186:80
+ROUTER_PORT_80_TCP_ADDR=172.30.198.186
+ROUTER_PORT_80_TCP_PORT=80
+ROUTER_PORT_80_TCP_PROTO=tcp
+ROUTER_SERVICE_HOST=172.30.198.186
+ROUTER_SERVICE_PORT=80
+ROUTER_SERVICE_PORT_1936_TCP=1936
+ROUTER_SERVICE_PORT_443_TCP=443
+ROUTER_SERVICE_PORT_80_TCP=80
+SCALA_VERSION=2.11
+SHLVL=1
+TERM=xterm
+ZULU_OPENJDK_VERSION=8=8.17.0.3
+_=/usr/bin/env
+===> User
+uid=0(root) gid=0(root) groups=0(root)
+===> Configuring ...
+
+. /etc/confluent/docker/apply-mesos-overrides
++ . /etc/confluent/docker/apply-mesos-overrides
+#!/usr/bin/env bash
+#
+# Copyright 2016 Confluent Inc.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# Mesos DC/OS docker deployments will have HOST and PORT0 
+# set for the proxying of the service.
+# 
+# Use those values provide things we know we'll need.
+
+[ -n "${HOST:-}" ] && [ -z "${CONNECT_REST_ADVERTISED_HOST_NAME:-}" ] && \
+	export CONNECT_REST_ADVERTISED_HOST_NAME=$HOST || true
+++ '[' -n '' ']'
+++ true
+
+[ -n "${PORT0:-}" ] && [ -z "${CONNECT_REST_ADVERTISED_PORT:-}" ] && \
+	export CONNECT_REST_ADVERTISED_PORT=$PORT0 || true
+++ '[' -n '' ']'
+++ true
+
+# And default to 8083, which MUST match the containerPort specification
+# in the Mesos package for this service.
+[ -z "${CONNECT_REST_PORT:-}" ] && \
+	export CONNECT_REST_PORT=8083 || true
+++ '[' -z '' ']'
+++ export CONNECT_REST_PORT=8083
+++ CONNECT_REST_PORT=8083
+
+
+echo "===> ENV Variables ..."
++ echo '===> ENV Variables ...'
+env | sort
++ sort
++ env
+
+echo "===> User"
++ echo '===> User'
+id
++ id
+
+echo "===> Configuring ..."
++ echo '===> Configuring ...'
+/etc/confluent/docker/configure
++ /etc/confluent/docker/configure
+
+dub ensure CONNECT_BOOTSTRAP_SERVERS
++ dub ensure CONNECT_BOOTSTRAP_SERVERS
+dub ensure CONNECT_GROUP_ID
++ dub ensure CONNECT_GROUP_ID
+dub ensure CONNECT_CONFIG_STORAGE_TOPIC
++ dub ensure CONNECT_CONFIG_STORAGE_TOPIC
+dub ensure CONNECT_OFFSET_STORAGE_TOPIC
++ dub ensure CONNECT_OFFSET_STORAGE_TOPIC
+dub ensure CONNECT_STATUS_STORAGE_TOPIC
++ dub ensure CONNECT_STATUS_STORAGE_TOPIC
+dub ensure CONNECT_KEY_CONVERTER
++ dub ensure CONNECT_KEY_CONVERTER
+dub ensure CONNECT_VALUE_CONVERTER
++ dub ensure CONNECT_VALUE_CONVERTER
+dub ensure CONNECT_INTERNAL_KEY_CONVERTER
++ dub ensure CONNECT_INTERNAL_KEY_CONVERTER
+dub ensure CONNECT_INTERNAL_VALUE_CONVERTER
++ dub ensure CONNECT_INTERNAL_VALUE_CONVERTER
+# This is required to avoid config bugs. You should set this to a value that is
+# resolvable by all containers.
+dub ensure CONNECT_REST_ADVERTISED_HOST_NAME
++ dub ensure CONNECT_REST_ADVERTISED_HOST_NAME
+
+# Default to 8083, which matches the mesos-overrides. This is here in case we extend the containers to remove the mesos overrides.
+if [ -z "$CONNECT_REST_PORT" ]; then
+  export CONNECT_REST_PORT=8083
+fi
++ '[' -z 8083 ']'
+
+# Fix for https://issues.apache.org/jira/browse/KAFKA-3988
+if [[ $CONNECT_INTERNAL_KEY_CONVERTER == "org.apache.kafka.connect.json.JsonConverter" ]] || [[ $CONNECT_INTERNAL_VALUE_CONVERTER == "org.apache.kafka.connect.json.JsonConverter" ]]
+then
+  export CONNECT_INTERNAL_KEY_CONVERTER_SCHEMAS_ENABLE=false
+  export CONNECT_INTERNAL_VALUE_CONVERTER_SCHEMAS_ENABLE=false
+fi
++ [[ org.apache.kafka.connect.json.JsonConverter == \o\r\g\.\a\p\a\c\h\e\.\k\a\f\k\a\.\c\o\n\n\e\c\t\.\j\s\o\n\.\J\s\o\n\C\o\n\v\e\r\t\e\r ]]
++ export CONNECT_INTERNAL_KEY_CONVERTER_SCHEMAS_ENABLE=false
++ CONNECT_INTERNAL_KEY_CONVERTER_SCHEMAS_ENABLE=false
++ export CONNECT_INTERNAL_VALUE_CONVERTER_SCHEMAS_ENABLE=false
++ CONNECT_INTERNAL_VALUE_CONVERTER_SCHEMAS_ENABLE=false
+
+if [[ $CONNECT_KEY_CONVERTER == "io.confluent.connect.avro.AvroConverter" ]]
+then
+  dub ensure CONNECT_KEY_CONVERTER_SCHEMA_REGISTRY_URL
+fi
++ [[ org.apache.kafka.connect.storage.StringConverter == \i\o\.\c\o\n\f\l\u\e\n\t\.\c\o\n\n\e\c\t\.\a\v\r\o\.\A\v\r\o\C\o\n\v\e\r\t\e\r ]]
+
+if [[ $CONNECT_VALUE_CONVERTER == "io.confluent.connect.avro.AvroConverter" ]]
+then
+  dub ensure CONNECT_VALUE_CONVERTER_SCHEMA_REGISTRY_URL
+fi
++ [[ org.apache.kafka.connect.storage.StringConverter == \i\o\.\c\o\n\f\l\u\e\n\t\.\c\o\n\n\e\c\t\.\a\v\r\o\.\A\v\r\o\C\o\n\v\e\r\t\e\r ]]
+
+dub path /etc/"${COMPONENT}"/ writable
++ dub path /etc/kafka-connect/ writable
+
+dub template "/etc/confluent/docker/${COMPONENT}.properties.template" "/etc/${COMPONENT}/${COMPONENT}.properties"
++ dub template /etc/confluent/docker/kafka-connect.properties.template /etc/kafka-connect/kafka-connect.properties
+
+# The connect-distributed script expects the log4j config at /etc/kafka/connect-log4j.properties.
+dub template "/etc/confluent/docker/log4j.properties.template" "/etc/kafka/connect-log4j.properties"
++ dub template /etc/confluent/docker/log4j.properties.template /etc/kafka/connect-log4j.properties
+
+echo "===> Running preflight checks ... "
++ echo '===> Running preflight checks ... '
+/etc/confluent/docker/ensure
++ /etc/confluent/docker/ensure
+===> Running preflight checks ... 
+===> Check if Kafka is healthy ...
+
+echo "===> Check if Kafka is healthy ..."
++ echo '===> Check if Kafka is healthy ...'
+
+if [[ -n "${CONNECT_SECURITY_PROTOCOL-}" ]] && [[ $CONNECT_SECURITY_PROTOCOL = "SSL" ]]
+then
+
+    cub kafka-ready \
+        "${CONNECT_CUB_KAFKA_MIN_BROKERS:-1}" \
+        "${CONNECT_CUB_KAFKA_TIMEOUT:-40}" \
+        -b "$CONNECT_BOOTSTRAP_SERVERS" \
+        --config /etc/"${COMPONENT}"/kafka-connect.properties
+else
+
+    cub kafka-ready \
+        "${CONNECT_CUB_KAFKA_MIN_BROKERS:-1}" \
+        "${CONNECT_CUB_KAFKA_TIMEOUT:-40}" \
+        -b "$CONNECT_BOOTSTRAP_SERVERS"
+fi
++ [[ -n '' ]]
++ cub kafka-ready 1 40 -b 192.168.112.163:9092
+MetadataClientConfig values: 
+	bootstrap.servers = [192.168.112.163:9092]
+	max.poll.timeout.ms = 5000
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+
+echo "===> Launching ... "
++ echo '===> Launching ... '
+exec /etc/confluent/docker/launch
++ exec /etc/confluent/docker/launch
+===> Launching ... 
+===> Launching kafka-connect ... 
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/share/java/kafka-serde-tools/slf4j-log4j12-1.7.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/share/java/kafka-connect-elasticsearch/slf4j-simple-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/share/java/kafka-connect-hdfs/slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/share/java/kafka-connect-s3/slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/share/java/kafka-connect-storage-common/slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/share/java/kafka/slf4j-log4j12-1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+[2017-08-02 19:49:04,410] INFO DistributedConfig values: 
+	access.control.allow.methods = 
+	access.control.allow.origin = 
+	bootstrap.servers = [192.168.112.163:9092]
+	client.id = 
+	config.storage.topic = danila-connect-configs-f
+	connections.max.idle.ms = 540000
+	group.id = connect_group_multi_worker_51
+	heartbeat.interval.ms = 3000
+	internal.key.converter = class org.apache.kafka.connect.json.JsonConverter
+	internal.value.converter = class org.apache.kafka.connect.json.JsonConverter
+	key.converter = class org.apache.kafka.connect.storage.StringConverter
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	offset.flush.interval.ms = 60000
+	offset.flush.timeout.ms = 5000
+	offset.storage.topic = danila-connect-offsets-f
+	rebalance.timeout.ms = 60000
+	receive.buffer.bytes = 32768
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 40000
+	rest.advertised.host.name = connect72
+	rest.advertised.port = null
+	rest.host.name = null
+	rest.port = 8083
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	status.storage.topic = danila-connect-status-f
+	task.shutdown.graceful.timeout.ms = 5000
+	value.converter = class org.apache.kafka.connect.storage.StringConverter
+	worker.sync.timeout.ms = 3000
+	worker.unsync.backoff.ms = 300000
+ (org.apache.kafka.connect.runtime.distributed.DistributedConfig)
+[2017-08-02 19:49:04,605] INFO Logging initialized @1975ms (org.eclipse.jetty.util.log)
+[2017-08-02 19:49:05,478] INFO Kafka version : 0.10.2.1-cp2 (org.apache.kafka.common.utils.AppInfoParser)
+[2017-08-02 19:49:05,478] INFO Kafka commitId : 93cd3b2114e355cf (org.apache.kafka.common.utils.AppInfoParser)
+[2017-08-02 19:49:05,488] INFO Kafka Connect starting (org.apache.kafka.connect.runtime.Connect)
+[2017-08-02 19:49:05,489] INFO Starting REST server (org.apache.kafka.connect.runtime.rest.RestServer)
+[2017-08-02 19:49:05,496] INFO Herder starting (org.apache.kafka.connect.runtime.distributed.DistributedHerder)
+[2017-08-02 19:49:05,496] INFO Worker starting (org.apache.kafka.connect.runtime.Worker)
+[2017-08-02 19:49:05,496] INFO Starting KafkaOffsetBackingStore (org.apache.kafka.connect.storage.KafkaOffsetBackingStore)
+[2017-08-02 19:49:05,496] INFO Starting KafkaBasedLog with topic danila-connect-offsets-f (org.apache.kafka.connect.util.KafkaBasedLog)
+[2017-08-02 19:49:05,532] INFO ProducerConfig values: 
+	acks = all
+	batch.size = 16384
+	block.on.buffer.full = false
+	bootstrap.servers = [192.168.112.163:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 1
+	max.request.size = 1048576
+	metadata.fetch.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	timeout.ms = 30000
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+ (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:05,567] WARN The configuration 'config.storage.topic' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:05,567] WARN The configuration 'rest.advertised.host.name' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:05,567] WARN The configuration 'status.storage.topic' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:05,567] WARN The configuration 'group.id' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:05,567] WARN The configuration 'plugin.path' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:05,567] WARN The configuration 'internal.key.converter.schemas.enable' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:05,567] WARN The configuration 'rest.port' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:05,567] WARN The configuration 'internal.key.converter' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:05,567] WARN The configuration 'key.converter.schemas.enable' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:05,567] WARN The configuration 'kafka.heap.opts' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:05,568] WARN The configuration 'values.converter.schemas.enable' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:05,568] WARN The configuration 'internal.value.converter.schemas.enable' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:05,568] WARN The configuration 'internal.value.converter' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:05,568] WARN The configuration 'offset.storage.topic' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:05,568] WARN The configuration 'value.converter' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:05,568] WARN The configuration 'key.converter' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:05,568] WARN The configuration 'auto.offset.reset' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:05,568] INFO Kafka version : 0.10.2.1-cp2 (org.apache.kafka.common.utils.AppInfoParser)
+[2017-08-02 19:49:05,568] INFO Kafka commitId : 93cd3b2114e355cf (org.apache.kafka.common.utils.AppInfoParser)
+[2017-08-02 19:49:05,596] INFO ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = earliest
+	bootstrap.servers = [192.168.112.163:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = connect_group_multi_worker_51
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	key.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+ (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:05,696] WARN The configuration 'config.storage.topic' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:05,704] WARN The configuration 'rest.advertised.host.name' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:05,705] WARN The configuration 'status.storage.topic' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:05,706] WARN The configuration 'plugin.path' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:05,706] WARN The configuration 'internal.key.converter.schemas.enable' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:05,706] WARN The configuration 'rest.port' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:05,706] WARN The configuration 'internal.key.converter' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:05,706] WARN The configuration 'key.converter.schemas.enable' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:05,706] WARN The configuration 'kafka.heap.opts' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:05,707] WARN The configuration 'values.converter.schemas.enable' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:05,707] WARN The configuration 'internal.value.converter.schemas.enable' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:05,708] WARN The configuration 'internal.value.converter' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:05,708] WARN The configuration 'offset.storage.topic' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:05,708] WARN The configuration 'value.converter' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:05,708] WARN The configuration 'key.converter' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:05,708] INFO Kafka version : 0.10.2.1-cp2 (org.apache.kafka.common.utils.AppInfoParser)
+[2017-08-02 19:49:05,708] INFO Kafka commitId : 93cd3b2114e355cf (org.apache.kafka.common.utils.AppInfoParser)
+[2017-08-02 19:49:06,033] INFO jetty-9.2.15.v20160210 (org.eclipse.jetty.server.Server)
+[2017-08-02 19:49:06,545] INFO Discovered coordinator 192.168.112.166:9092 (id: 2147483644 rack: null) for group connect_group_multi_worker_51. (org.apache.kafka.clients.consumer.internals.AbstractCoordinator)
+[2017-08-02 19:49:06,724] INFO Finished reading KafkaBasedLog for topic danila-connect-offsets-f (org.apache.kafka.connect.util.KafkaBasedLog)
+[2017-08-02 19:49:06,724] INFO Started KafkaBasedLog for topic danila-connect-offsets-f (org.apache.kafka.connect.util.KafkaBasedLog)
+[2017-08-02 19:49:06,725] INFO Finished reading offsets topic and starting KafkaOffsetBackingStore (org.apache.kafka.connect.storage.KafkaOffsetBackingStore)
+[2017-08-02 19:49:06,727] INFO Worker started (org.apache.kafka.connect.runtime.Worker)
+[2017-08-02 19:49:06,727] INFO Starting KafkaBasedLog with topic danila-connect-status-f (org.apache.kafka.connect.util.KafkaBasedLog)
+[2017-08-02 19:49:06,728] INFO ProducerConfig values: 
+	acks = all
+	batch.size = 16384
+	block.on.buffer.full = false
+	bootstrap.servers = [192.168.112.163:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 1
+	max.request.size = 1048576
+	metadata.fetch.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	timeout.ms = 30000
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+ (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:06,759] WARN The configuration 'config.storage.topic' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:06,759] WARN The configuration 'rest.advertised.host.name' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:06,760] WARN The configuration 'status.storage.topic' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:06,760] WARN The configuration 'group.id' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:06,760] WARN The configuration 'plugin.path' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:06,760] WARN The configuration 'internal.key.converter.schemas.enable' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:06,760] WARN The configuration 'rest.port' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:06,760] WARN The configuration 'internal.key.converter' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:06,760] WARN The configuration 'key.converter.schemas.enable' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:06,760] WARN The configuration 'kafka.heap.opts' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:06,760] WARN The configuration 'values.converter.schemas.enable' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:06,760] WARN The configuration 'internal.value.converter.schemas.enable' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:06,760] WARN The configuration 'internal.value.converter' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:06,760] WARN The configuration 'offset.storage.topic' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:06,760] WARN The configuration 'value.converter' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:06,760] WARN The configuration 'key.converter' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:06,760] WARN The configuration 'auto.offset.reset' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:06,760] INFO Kafka version : 0.10.2.1-cp2 (org.apache.kafka.common.utils.AppInfoParser)
+[2017-08-02 19:49:06,760] INFO Kafka commitId : 93cd3b2114e355cf (org.apache.kafka.common.utils.AppInfoParser)
+[2017-08-02 19:49:06,761] INFO ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = earliest
+	bootstrap.servers = [192.168.112.163:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = connect_group_multi_worker_51
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+ (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:06,778] WARN The configuration 'config.storage.topic' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:06,780] WARN The configuration 'rest.advertised.host.name' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:06,780] WARN The configuration 'status.storage.topic' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:06,780] WARN The configuration 'plugin.path' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:06,781] WARN The configuration 'internal.key.converter.schemas.enable' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:06,781] WARN The configuration 'rest.port' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:06,781] WARN The configuration 'internal.key.converter' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:06,781] WARN The configuration 'key.converter.schemas.enable' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:06,781] WARN The configuration 'kafka.heap.opts' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:06,782] WARN The configuration 'values.converter.schemas.enable' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:06,782] WARN The configuration 'internal.value.converter.schemas.enable' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:06,782] WARN The configuration 'internal.value.converter' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:06,782] WARN The configuration 'offset.storage.topic' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:06,783] WARN The configuration 'value.converter' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:06,783] WARN The configuration 'key.converter' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:06,784] INFO Kafka version : 0.10.2.1-cp2 (org.apache.kafka.common.utils.AppInfoParser)
+[2017-08-02 19:49:06,784] INFO Kafka commitId : 93cd3b2114e355cf (org.apache.kafka.common.utils.AppInfoParser)
+[2017-08-02 19:49:06,862] INFO Discovered coordinator 192.168.112.166:9092 (id: 2147483644 rack: null) for group connect_group_multi_worker_51. (org.apache.kafka.clients.consumer.internals.AbstractCoordinator)
+[2017-08-02 19:49:08,390] INFO Finished reading KafkaBasedLog for topic danila-connect-status-f (org.apache.kafka.connect.util.KafkaBasedLog)
+[2017-08-02 19:49:08,390] INFO Started KafkaBasedLog for topic danila-connect-status-f (org.apache.kafka.connect.util.KafkaBasedLog)
+[2017-08-02 19:49:08,391] INFO Starting KafkaConfigBackingStore (org.apache.kafka.connect.storage.KafkaConfigBackingStore)
+[2017-08-02 19:49:08,391] INFO Starting KafkaBasedLog with topic danila-connect-configs-f (org.apache.kafka.connect.util.KafkaBasedLog)
+[2017-08-02 19:49:08,391] INFO ProducerConfig values: 
+	acks = all
+	batch.size = 16384
+	block.on.buffer.full = false
+	bootstrap.servers = [192.168.112.163:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 1
+	max.request.size = 1048576
+	metadata.fetch.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	timeout.ms = 30000
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+ (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:08,394] WARN The configuration 'config.storage.topic' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:08,394] WARN The configuration 'rest.advertised.host.name' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:08,398] WARN The configuration 'status.storage.topic' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:08,398] WARN The configuration 'group.id' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:08,398] WARN The configuration 'plugin.path' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:08,398] WARN The configuration 'internal.key.converter.schemas.enable' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:08,398] WARN The configuration 'rest.port' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:08,398] WARN The configuration 'internal.key.converter' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:08,398] WARN The configuration 'key.converter.schemas.enable' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:08,398] WARN The configuration 'kafka.heap.opts' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:08,398] WARN The configuration 'values.converter.schemas.enable' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:08,398] WARN The configuration 'internal.value.converter.schemas.enable' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:08,398] WARN The configuration 'internal.value.converter' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:08,398] WARN The configuration 'offset.storage.topic' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:08,398] WARN The configuration 'value.converter' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:08,398] WARN The configuration 'key.converter' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:08,398] WARN The configuration 'auto.offset.reset' was supplied but isn't a known config. (org.apache.kafka.clients.producer.ProducerConfig)
+[2017-08-02 19:49:08,398] INFO Kafka version : 0.10.2.1-cp2 (org.apache.kafka.common.utils.AppInfoParser)
+[2017-08-02 19:49:08,398] INFO Kafka commitId : 93cd3b2114e355cf (org.apache.kafka.common.utils.AppInfoParser)
+[2017-08-02 19:49:08,399] INFO ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = earliest
+	bootstrap.servers = [192.168.112.163:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = connect_group_multi_worker_51
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+ (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:08,403] WARN The configuration 'config.storage.topic' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:08,403] WARN The configuration 'rest.advertised.host.name' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:08,403] WARN The configuration 'status.storage.topic' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:08,403] WARN The configuration 'plugin.path' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:08,403] WARN The configuration 'internal.key.converter.schemas.enable' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:08,403] WARN The configuration 'rest.port' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:08,403] WARN The configuration 'internal.key.converter' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:08,404] WARN The configuration 'key.converter.schemas.enable' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:08,404] WARN The configuration 'kafka.heap.opts' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:08,404] WARN The configuration 'values.converter.schemas.enable' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:08,404] WARN The configuration 'internal.value.converter.schemas.enable' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:08,404] WARN The configuration 'internal.value.converter' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:08,404] WARN The configuration 'offset.storage.topic' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:08,404] WARN The configuration 'value.converter' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:08,404] WARN The configuration 'key.converter' was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-08-02 19:49:08,404] INFO Kafka version : 0.10.2.1-cp2 (org.apache.kafka.common.utils.AppInfoParser)
+[2017-08-02 19:49:08,404] INFO Kafka commitId : 93cd3b2114e355cf (org.apache.kafka.common.utils.AppInfoParser)
+[2017-08-02 19:49:08,464] INFO Discovered coordinator 192.168.112.166:9092 (id: 2147483644 rack: null) for group connect_group_multi_worker_51. (org.apache.kafka.clients.consumer.internals.AbstractCoordinator)
+Aug 02, 2017 7:49:08 PM org.glassfish.jersey.internal.Errors logErrors
+WARNING: The following warnings have been detected: WARNING: The (sub)resource method listConnectors in org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource contains empty path annotation.
+WARNING: The (sub)resource method createConnector in org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource contains empty path annotation.
+WARNING: The (sub)resource method listConnectorPlugins in org.apache.kafka.connect.runtime.rest.resources.ConnectorPluginsResource contains empty path annotation.
+WARNING: The (sub)resource method serverInfo in org.apache.kafka.connect.runtime.rest.resources.RootResource contains empty path annotation.
+
+[2017-08-02 19:49:08,491] INFO Started o.e.j.s.ServletContextHandler@1922e6d{/,null,AVAILABLE} (org.eclipse.jetty.server.handler.ContextHandler)
+[2017-08-02 19:49:08,618] INFO Started ServerConnector@fc81115{HTTP/1.1}{0.0.0.0:8083} (org.eclipse.jetty.server.ServerConnector)
+[2017-08-02 19:49:08,618] INFO Started @5992ms (org.eclipse.jetty.server.Server)
+[2017-08-02 19:49:08,624] INFO REST server listening at http://172.17.0.8:8083/, advertising URL http://connect72:8083/ (org.apache.kafka.connect.runtime.rest.RestServer)
+[2017-08-02 19:49:08,624] INFO Kafka Connect started (org.apache.kafka.connect.runtime.Connect)
+[2017-08-02 19:49:08,620] INFO Removed connector timestamps-07-24-526pm due to null configuration. This is usually intentional and does not indicate an issue. (org.apache.kafka.connect.storage.KafkaConfigBackingStore)
+[2017-08-02 19:49:08,664] INFO Removed connector timestamps-07-25-1131am due to null configuration. This is usually intentional and does not indicate an issue. (org.apache.kafka.connect.storage.KafkaConfigBackingStore)
+[2017-08-02 19:49:08,664] INFO Removed connector timestamps-07-25-334pm due to null configuration. This is usually intentional and does not indicate an issue. (org.apache.kafka.connect.storage.KafkaConfigBackingStore)
+[2017-08-02 19:49:08,665] INFO Removed connector timestamps-07-25-1131am due to null configuration. This is usually intentional and does not indicate an issue. (org.apache.kafka.connect.storage.KafkaConfigBackingStore)
+[2017-08-02 19:49:08,684] INFO Removed connector timestamps-07-25-424am due to null configuration. This is usually intentional and does not indicate an issue. (org.apache.kafka.connect.storage.KafkaConfigBackingStore)
+[2017-08-02 19:49:08,684] INFO Removed connector timestamps-07-25-334pm due to null configuration. This is usually intentional and does not indicate an issue. (org.apache.kafka.connect.storage.KafkaConfigBackingStore)
+[2017-08-02 19:49:08,694] INFO Removed connector timestamps-07-25-507pm due to null configuration. This is usually intentional and does not indicate an issue. (org.apache.kafka.connect.storage.KafkaConfigBackingStore)
+[2017-08-02 19:49:08,695] INFO Removed connector timestamps-07-25-529pm due to null configuration. This is usually intentional and does not indicate an issue. (org.apache.kafka.connect.storage.KafkaConfigBackingStore)
+[2017-08-02 19:49:08,698] INFO Removed connector timestamps-07-26-959am due to null configuration. This is usually intentional and does not indicate an issue. (org.apache.kafka.connect.storage.KafkaConfigBackingStore)
+[2017-08-02 19:49:08,698] INFO Removed connector timestamps-07-26-959am due to null configuration. This is usually intentional and does not indicate an issue. (org.apache.kafka.connect.storage.KafkaConfigBackingStore)
+[2017-08-02 19:49:08,706] INFO Removed connector timestamps-07-26-102pm due to null configuration. This is usually intentional and does not indicate an issue. (org.apache.kafka.connect.storage.KafkaConfigBackingStore)
+[2017-08-02 19:49:08,708] INFO Removed connector timestamps-07-26-141pm due to null configuration. This is usually intentional and does not indicate an issue. (org.apache.kafka.connect.storage.KafkaConfigBackingStore)
+[2017-08-02 19:49:08,709] INFO Removed connector timestamps-07-26-145pm due to null configuration. This is usually intentional and does not indicate an issue. (org.apache.kafka.connect.storage.KafkaConfigBackingStore)
+[2017-08-02 19:49:08,711] INFO Removed connector timestamps-07-26-208pm due to null configuration. This is usually intentional and does not indicate an issue. (org.apache.kafka.connect.storage.KafkaConfigBackingStore)
+[2017-08-02 19:49:08,711] INFO Removed connector timestamps-07-26-444pm due to null configuration. This is usually intentional and does not indicate an issue. (org.apache.kafka.connect.storage.KafkaConfigBackingStore)
+[2017-08-02 19:49:08,711] INFO Removed connector timestamps-07-26-446pm due to null configuration. This is usually intentional and does not indicate an issue. (org.apache.kafka.connect.storage.KafkaConfigBackingStore)
+[2017-08-02 19:49:08,715] INFO Removed connector timestamps-07-26-446pm due to null configuration. This is usually intentional and does not indicate an issue. (org.apache.kafka.connect.storage.KafkaConfigBackingStore)
+[2017-08-02 19:49:08,719] INFO Removed connector timestamps-07-26-602pm due to null configuration. This is usually intentional and does not indicate an issue. (org.apache.kafka.connect.storage.KafkaConfigBackingStore)
+[2017-08-02 19:49:08,724] INFO Removed connector timestamps-07-26-611pm due to null configuration. This is usually intentional and does not indicate an issue. (org.apache.kafka.connect.storage.KafkaConfigBackingStore)
+[2017-08-02 19:49:08,724] INFO Removed connector timestamps-07-26-638pm due to null configuration. This is usually intentional and does not indicate an issue. (org.apache.kafka.connect.storage.KafkaConfigBackingStore)
+[2017-08-02 19:49:08,724] INFO Removed connector timestamps-07-26-655pm due to null configuration. This is usually intentional and does not indicate an issue. (org.apache.kafka.connect.storage.KafkaConfigBackingStore)
+[2017-08-02 19:49:08,726] INFO Removed connector timestamps-07-26-709pm due to null configuration. This is usually intentional and does not indicate an issue. (org.apache.kafka.connect.storage.KafkaConfigBackingStore)
+[2017-08-02 19:49:08,729] INFO Removed connector timestamps-07-26-741pm due to null configuration. This is usually intentional and does not indicate an issue. (org.apache.kafka.connect.storage.KafkaConfigBackingStore)
+[2017-08-02 19:49:08,743] INFO Removed connector timestamps-07-27-924am due to null configuration. This is usually intentional and does not indicate an issue. (org.apache.kafka.connect.storage.KafkaConfigBackingStore)
+[2017-08-02 19:49:08,744] INFO Removed connector timestamps-07-27-925am due to null configuration. This is usually intentional and does not indicate an issue. (org.apache.kafka.connect.storage.KafkaConfigBackingStore)
+[2017-08-02 19:49:08,744] INFO Removed connector timestamps-07-27-939am due to null configuration. This is usually intentional and does not indicate an issue. (org.apache.kafka.connect.storage.KafkaConfigBackingStore)
+[2017-08-02 19:49:08,744] INFO Removed connector timestamps-07-27-1015am due to null configuration. This is usually intentional and does not indicate an issue. (org.apache.kafka.connect.storage.KafkaConfigBackingStore)
+[2017-08-02 19:49:08,744] INFO Removed connector timestamps-07-27-1025am due to null configuration. This is usually intentional and does not indicate an issue. (org.apache.kafka.connect.storage.KafkaConfigBackingStore)
+[2017-08-02 19:49:08,744] INFO Removed connector timestamps-07-27-1043am due to null configuration. This is usually intentional and does not indicate an issue. (org.apache.kafka.connect.storage.KafkaConfigBackingStore)
+[2017-08-02 19:49:08,744] INFO Removed connector timestamps-07-27-1102am due to null configuration. This is usually intentional and does not indicate an issue. (org.apache.kafka.connect.storage.KafkaConfigBackingStore)
+[2017-08-02 19:49:08,746] INFO Removed connector timestamps-07-27-1211pm due to null configuration. This is usually intentional and does not indicate an issue. (org.apache.kafka.connect.storage.KafkaConfigBackingStore)
+[2017-08-02 19:49:08,746] INFO Removed connector timestamps-07-27-541pm due to null configuration. This is usually intentional and does not indicate an issue. (org.apache.kafka.connect.storage.KafkaConfigBackingStore)
+[2017-08-02 19:49:08,757] INFO Removed connector timestamps-07-28-945am due to null configuration. This is usually intentional and does not indicate an issue. (org.apache.kafka.connect.storage.KafkaConfigBackingStore)
+[2017-08-02 19:49:08,759] INFO Removed connector timestamps-07-28-1016am due to null configuration. This is usually intentional and does not indicate an issue. (org.apache.kafka.connect.storage.KafkaConfigBackingStore)
+[2017-08-02 19:49:08,764] INFO Removed connector timestamps-07-28-149pm due to null configuration. This is usually intentional and does not indicate an issue. (org.apache.kafka.connect.storage.KafkaConfigBackingStore)
+[2017-08-02 19:49:08,764] INFO Removed connector timestamps-demo due to null configuration. This is usually intentional and does not indicate an issue. (org.apache.kafka.connect.storage.KafkaConfigBackingStore)
+[2017-08-02 19:49:08,767] INFO Finished reading KafkaBasedLog for topic danila-connect-configs-f (org.apache.kafka.connect.util.KafkaBasedLog)
+[2017-08-02 19:49:08,767] INFO Started KafkaBasedLog for topic danila-connect-configs-f (org.apache.kafka.connect.util.KafkaBasedLog)
+[2017-08-02 19:49:08,767] INFO Started KafkaConfigBackingStore (org.apache.kafka.connect.storage.KafkaConfigBackingStore)
+[2017-08-02 19:49:08,771] INFO Herder started (org.apache.kafka.connect.runtime.distributed.DistributedHerder)
+[2017-08-02 19:49:08,795] INFO Discovered coordinator 192.168.112.166:9092 (id: 2147483644 rack: null) for group connect_group_multi_worker_51. (org.apache.kafka.clients.consumer.internals.AbstractCoordinator)
+[2017-08-02 19:49:08,816] INFO (Re-)joining group connect_group_multi_worker_51 (org.apache.kafka.clients.consumer.internals.AbstractCoordinator)
+[2017-08-02 19:49:08,895] INFO Successfully joined group connect_group_multi_worker_51 with generation 1 (org.apache.kafka.clients.consumer.internals.AbstractCoordinator)
+[2017-08-02 19:49:08,900] INFO Joined group and got assignment: Assignment{error=0, leader='connect-1-3628faa1-fd3c-4cc2-865b-087ee01a3c64', leaderUrl='http://connect72:8083/', offset=2877, connectorIds=[], taskIds=[]} (org.apache.kafka.connect.runtime.distributed.DistributedHerder)
+[2017-08-02 19:49:08,901] WARN Catching up to assignment's config offset. (org.apache.kafka.connect.runtime.distributed.DistributedHerder)
+[2017-08-02 19:49:08,901] INFO Current config state offset -1 is behind group assignment 2877, reading to end of config log (org.apache.kafka.connect.runtime.distributed.DistributedHerder)
+[2017-08-02 19:49:09,269] INFO Finished reading to end of log and updated config snapshot, new config log offset: 2877 (org.apache.kafka.connect.runtime.distributed.DistributedHerder)
+[2017-08-02 19:49:09,272] INFO Starting connectors and tasks using config offset 2877 (org.apache.kafka.connect.runtime.distributed.DistributedHerder)
+[2017-08-02 19:49:09,272] INFO Finished starting connectors and tasks (org.apache.kafka.connect.runtime.distributed.DistributedHerder)
+[2017-08-02 19:49:32,622] INFO Reflections took 23579 ms to scan 563 urls, producing 13662 keys and 89531 values  (org.reflections.Reflections)
+[2017-08-02 19:50:07,860] INFO 172.17.0.1 - - [02/Aug/2017:19:50:07 +0000] "GET / HTTP/1.1" 200 54  721 (org.apache.kafka.connect.runtime.rest.RestServer)
+[2017-08-02 19:50:08,394] INFO 172.17.0.1 - - [02/Aug/2017:19:50:08 +0000] "GET /favicon.ico HTTP/1.1" 404 289  53 (org.apache.kafka.connect.runtime.rest.RestServer)
+[2017-08-02 19:52:28,843] INFO Reflections took 19594 ms to scan 563 urls, producing 13662 keys and 89531 values  (org.reflections.Reflections)
+[2017-08-02 19:52:28,936] INFO 172.17.0.1 - - [02/Aug/2017:19:52:09 +0000] "POST /connectors HTTP/1.1" 500 1081  19816 (org.apache.kafka.connect.runtime.rest.RestServer)
+[2017-08-02 19:53:49,722] INFO Reflections took 21300 ms to scan 563 urls, producing 13662 keys and 89531 values  (org.reflections.Reflections)
+[2017-08-02 19:53:49,728] INFO 172.17.0.1 - - [02/Aug/2017:19:53:28 +0000] "POST /connectors HTTP/1.1" 500 1081  21344 (org.apache.kafka.connect.runtime.rest.RestServer)
+[2017-08-02 20:21:03,092] INFO Marking the coordinator 192.168.112.166:9092 (id: 2147483644 rack: null) dead for group connect_group_multi_worker_51 (org.apache.kafka.clients.consumer.internals.AbstractCoordinator)
+[2017-08-02 20:21:03,094] INFO Discovered coordinator 192.168.112.164:9092 (id: 2147483646 rack: null) for group connect_group_multi_worker_51. (org.apache.kafka.clients.consumer.internals.AbstractCoordinator)
+[2017-08-02 20:24:45,137] INFO Marking the coordinator 192.168.112.164:9092 (id: 2147483646 rack: null) dead for group connect_group_multi_worker_51 (org.apache.kafka.clients.consumer.internals.AbstractCoordinator)
+[2017-08-02 20:24:45,140] INFO Discovered coordinator 192.168.112.166:9092 (id: 2147483644 rack: null) for group connect_group_multi_worker_51. (org.apache.kafka.clients.consumer.internals.AbstractCoordinator)
+[2017-08-02 20:41:12,616] INFO Marking the coordinator 192.168.112.166:9092 (id: 2147483644 rack: null) dead for group connect_group_multi_worker_51 (org.apache.kafka.clients.consumer.internals.AbstractCoordinator)
+[2017-08-02 20:41:43,718] INFO Discovered coordinator 192.168.112.166:9092 (id: 2147483644 rack: null) for group connect_group_multi_worker_51. (org.apache.kafka.clients.consumer.internals.AbstractCoordinator)
+[2017-08-02 20:41:44,811] INFO 172.17.0.1 - - [02/Aug/2017:20:41:43 +0000] "GET / HTTP/1.1" 200 54  1113 (org.apache.kafka.connect.runtime.rest.RestServer)

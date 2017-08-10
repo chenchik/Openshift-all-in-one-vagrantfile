@@ -1,0 +1,47 @@
+dchenchik-mbp:all-in-one dchenchik$ vagrant destroy
+    default: Are you sure you want to destroy the 'default' VM? [y/N] y
+==> default: Forcing shutdown of VM...
+==> default: Destroying VM and associated drives...
+dchenchik-mbp:all-in-one dchenchik$
+dchenchik-mbp:all-in-one dchenchik$
+dchenchik-mbp:all-in-one dchenchik$
+dchenchik-mbp:all-in-one dchenchik$
+dchenchik-mbp:all-in-one dchenchik$
+dchenchik-mbp:all-in-one dchenchik$
+dchenchik-mbp:all-in-one dchenchik$
+dchenchik-mbp:all-in-one dchenchik$ vagrant up
+Bringing machine 'default' up with 'virtualbox' provider...
+==> default: Importing base box 'openshift/origin-all-in-one'...
+There was an error while executing `VBoxManage`, a CLI used by Vagrant
+for controlling VirtualBox. The command and stderr is shown below.
+
+Command: ["import", "/Users/dchenchik/.vagrant.d/boxes/openshift-VAGRANTSLASH-origin-all-in-one/1.3.0/virtualbox/box.ovf", "--vsys", "0", "--vmname", "origin_1501711511209_9398", "--vsys", "0", "--unit", "8", "--disk", "/Users/dchenchik/VirtualBox VMs/origin_1501711511209_9398/box-disk1.vmdk"]
+
+Stderr: 0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100%
+Interpreting /Users/dchenchik/.vagrant.d/boxes/openshift-VAGRANTSLASH-origin-all-in-one/1.3.0/virtualbox/box.ovf...
+OK.
+0%...
+Progress state: VBOX_E_FILE_ERROR
+VBoxManage: error: Appliance import failed
+VBoxManage: error: Could not create the imported medium '/Users/dchenchik/VirtualBox VMs/origin_1501711511209_9398/box-disk1.vmdk'.
+VBoxManage: error: VMDK: Compressed image is corrupted '/Users/dchenchik/.vagrant.d/boxes/openshift-VAGRANTSLASH-origin-all-in-one/1.3.0/virtualbox/box-disk1.vmdk' (VERR_ZIP_CORRUPTED)
+VBoxManage: error: Details: code VBOX_E_FILE_ERROR (0x80bb0004), component ApplianceWrap, interface IAppliance
+VBoxManage: error: Context: "RTEXITCODE handleImportAppliance(HandlerArg *)" at line 886 of file VBoxManageAppliance.cpp
+
+dchenchik-mbp:all-in-one dchenchik$ rm /Users/dchenchik/.vagrant.d/boxes/openshift-VAGRANTSLASH-origin-all-in-one/1.3.0/virtualbox/box.ovf
+dchenchik-mbp:all-in-one dchenchik$ vagrant up
+Bringing machine 'default' up with 'virtualbox' provider...
+==> default: Importing base box 'openshift/origin-all-in-one'...
+There was an error while executing `VBoxManage`, a CLI used by Vagrant
+for controlling VirtualBox. The command and stderr is shown below.
+
+Command: ["import", "-n", "/Users/dchenchik/.vagrant.d/boxes/openshift-VAGRANTSLASH-origin-all-in-one/1.3.0/virtualbox/box.ovf"]
+
+Stderr: 0%...
+Progress state: VBOX_E_IPRT_ERROR
+VBoxManage: error: Appliance read failed
+VBoxManage: error: Failed to open OVF file '/Users/dchenchik/.vagrant.d/boxes/openshift-VAGRANTSLASH-origin-all-in-one/1.3.0/virtualbox/box.ovf' (VERR_FILE_NOT_FOUND)
+VBoxManage: error: Details: code VBOX_E_IPRT_ERROR (0x80bb0005), component ApplianceWrap, interface IAppliance
+VBoxManage: error: Context: "RTEXITCODE handleImportAppliance(HandlerArg *)" at line 307 of file VBoxManageAppliance.cpp
+
+dchenchik-mbp:all-in-one dchenchik$
